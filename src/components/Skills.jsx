@@ -5,17 +5,17 @@ import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Responsi
 const Skills = () => {
   const skillsData = [
     { subject: 'Python', A: 90 },
-    { subject: 'JavaScript', A: 85 },
-    { subject: 'React', A: 80 },
-    { subject: 'Machine Learning', A: 75 },
+    { subject: 'Java', A: 85 },
+    { subject: 'TensorFlow', A: 80 },
+    { subject: 'streamlit', A: 75 },
     { subject: 'Docker', A: 70 },
-    { subject: 'Git', A: 85 }
+    { subject: 'Langchain', A: 85 }
   ];
 
   const otherSkills = [
-    { category: 'プログラミング言語', skills: ['Python', 'JavaScript', 'HTML/CSS', 'Java'] },
-    { category: 'フレームワーク', skills: ['React', 'TensorFlow', 'Node.js', 'Express'] },
-    { category: 'ツール・技術', skills: ['Git', 'Docker', 'AWS', 'Linux'] }
+    { category: 'プログラミング言語', skills: ['Python','Java','C','C++','C#', 'JavaScript', 'HTML/CSS','Swift','SQL'] },
+    { category: 'フレームワーク', skills: ['TensorFlow','pytorch','streamlit','Ollama','Langchain','React', 'Node.js'] },
+    { category: 'ツール・技術', skills: ['Git', 'Docker', 'Unity', 'Linux'] }
   ];
 
   return (

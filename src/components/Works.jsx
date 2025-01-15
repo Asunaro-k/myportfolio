@@ -42,15 +42,45 @@ const ProjectCard = ({ project }) => {
 const WorksSection = () => {
   const projects = [
     {
-      title: "シフト作成アプリ",
-      description: "Python と Excel を使用した自動シフト作成システム",
-      technologies: ["Python", "Pandas", "Excel"],
+      title: "四字熟語でポン",
+      description: "Unity で四字熟語を学べるTPSゲームの作成",
+      technologies: ["C#"],
+      image: "/api/placeholder/400/250"
+    },
+    {
+      title: "ARを用いた英語学習アプリ",
+      description: "Unity で英語学習アプリの作成",
+      technologies: ["C##"],
+      image: "/api/placeholder/400/250"
+    },
+    {
+      title: "VQA modelの構築",
+      description: "LSTMとVitとTransformerDecoderでモデル構築",
+      technologies: ["python"],
       image: "/api/placeholder/400/250"
     },
     {
       title: "Discord Bot",
       description: "LangChain を活用した AI 搭載 Discord Bot",
       technologies: ["Python", "Discord.py", "LangChain"],
+      image: "/api/placeholder/400/250"
+    },
+    {
+      title: "Groqを用いたchat形式英会話アプリ",
+      description: "Groqとstreamlitとblipを使用",
+      technologies: ["python"],
+      image: "/api/placeholder/400/250"
+    },
+    {
+      title: "DNSサーバーとCaddyでwebサイト構築",
+      description: "UnboundとCaddyを使用",
+      technologies: ["C","go"],
+      image: "/api/placeholder/400/250"
+    },
+    {
+      title: "AIを用いた多機能英会話アプリ",
+      description: "Langchainとgemma2-9bとstreamlitとblipを使用",
+      technologies: ["python"],
       image: "/api/placeholder/400/250"
     }
   ];

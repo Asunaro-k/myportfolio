@@ -23,32 +23,37 @@ const TimelineItem = ({ date, title, description, isLeft }) => {
   );
 };
 
-const University = () => {
+const MyResearch = () => {
   const timelineData = [
+    {
+      date: '2019年4月',
+      title: '情報工学科 入学',
+      description: '大学 工学部 情報工学科に入学。'
+    },
+    {
+      date: '2022年3月',
+      title: '学会発表',
+      description: '情報処理学会第84回全国大会にて研究成果を発表。'
+    },
     {
       date: '2023年4月',
       title: '情報工学専攻 入学',
-      description: '中京大学大学院 工学研究科 情報工学専攻に入学。AI・機械学習の研究を開始。'
+      description: '大学院 工学研究科 情報工学専攻に入学。AI・機械学習の研究を専門に。'
     },
     {
-      date: '2023年10月',
-      title: '研究テーマ決定',
-      description: '「機械学習を用いた自然言語処理の研究」をテーマに設定し、本格的な研究活動を開始。'
-    },
-    {
-      date: '2024年1月',
+      date: '2024年3月',
       title: '学会発表',
-      description: '情報処理学会第86回全国大会にて研究成果を発表。優秀発表賞を受賞。'
+      description: '情報処理学会第86回全国大会にて研究成果を発表。'
     },
     {
-      date: '2024年4月',
-      title: '研究プロジェクト参加',
-      description: '産学共同研究プロジェクトに参加。実務での機械学習応用に関する知見を深める。'
+      date: '2025年1月',
+      title: '修士論文執筆',
+      description: 'AIを活用したフルスタックアプリの開発'
     }
   ];
 
   return (
-    <section id="university" className="section-padding">
+    <section id="myresearch" className="section-padding">
       <div className="container-width">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -56,7 +61,7 @@ const University = () => {
           viewport={{ once: true }}
           className="heading-2 text-center mb-16"
         >
-          Chukyo University
+          MyResearch
         </motion.h2>
 
         <div className="relative">
@@ -81,4 +86,4 @@ const University = () => {
   );
 };
 
-export default University;
+export default MyResearch;
