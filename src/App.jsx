@@ -32,7 +32,7 @@ const App = () => {
         >
           {/* アイコン画像を追加 */}
           <img 
-            src="./src/assets/images/1B8504D9-D563-4558-90BD-00ED285993E3.png"  // アイコン画像のパスを指定
+            src="https://raw.githubusercontent.com/Asunaro-k/myportfolio/main/src/assets/images/1B8504D9-D563-4558-90BD-00ED285993E3.png"  // アイコン画像のパスを指定
             alt="Profile Icon"
             className="w-64 h-64 rounded-full mx-auto mb-8"  // アイコンのサイズとスタイルを調整
           />
